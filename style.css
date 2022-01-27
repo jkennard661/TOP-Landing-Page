@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: 3882f6;
+}
+
+/* This is the header section of the webpage */
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: #1F2937
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-row {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-modal-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-img {
+   color: white;
+
+}
+
+/* This is the page-info section of the webpage */
+
+.page-info {
+    display: flex;
+    justify-content: center;
+}
+
+.page-info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+/* This is the testimonial section of the webpage */
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    background: #E5E7EB
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* This is the page sign-up section of the webpage */
+
+.page-sign-up {
+    display: flex;
+    justify-content: center;
+}
+
+/* This is the footer of the webpage */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: #1F2937;
+    color: #E5E7EB
+}
