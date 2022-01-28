@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0px;
 }
 
 button {
@@ -100,6 +101,12 @@ button {
 
 /* This is the page-info section of the webpage */
 
+.page-info-div {
+    display: flex;
+    padding: 35px;
+    flex-wrap: wrap;
+} 
+
 .page-info {
     display: flex;
     justify-content: center;
@@ -109,6 +116,22 @@ button {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.page-info-graphics {
+    display: flex;
+    gap: 25px;
+}
+
+.page-info-graphics-box {
+    border: solid blue 2px;
+    border-radius: 5px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* This is the testimonial section of the webpage */
