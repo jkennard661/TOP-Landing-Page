@@ -139,7 +139,16 @@ button {
 .testimonial {
     display: flex;
     justify-content: center;
-    background: #E5E7EB
+    background: #E5E7EB;
+    padding: 100px;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.testimonial-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .testimonial-quote {
@@ -147,6 +156,13 @@ button {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+}
+
+.testimonial-source {
+    font-weight: 700;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: flex-end;
 }
 
 /* This is the page sign-up section of the webpage */
