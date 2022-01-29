@@ -198,8 +198,14 @@ button {
     font-size: 18px;
 }
 
+
+.page-sign-up-words {
+    margin-left: 200px;
+}
+
 .page-sign-up-button {
     border: solid white 1.5px;
+    margin-right: 200px;
 }
 
 /* This is the footer of the webpage */
