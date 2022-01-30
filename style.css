@@ -24,6 +24,11 @@ button {
     border-radius: 6px;
     padding: 5px;
     font-size: 15px;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* This is the header section of the webpage */
@@ -185,6 +190,7 @@ button {
     background: #3882f6;
     border: solid #3882f6 1px;
     border-radius: 8px;
+    align-items: center;
 }
 
 .page-sign-up-title {
@@ -200,12 +206,12 @@ button {
 
 
 .page-sign-up-words {
-    margin-left: 200px;
+    margin-left: 50px;
 }
 
 .page-sign-up-button {
-    border: solid white 1.5px;
-    margin-right: 200px;
+    border: solid white 2px;
+    margin-right: 50px;
 }
 
 /* This is the footer of the webpage */
